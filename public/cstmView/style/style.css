@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Lora:wght@400;500;600;700&display=swap');
+html{
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6,ul,li,a,p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none !important;
+}
+body {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'ABeeZee', sans-serif !important;
+    font-family: 'Lora', serif;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0;
+}
+.slick-slide img {
+    width: 100%;
+}
+#wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Meiryo';
+    src: url('../fonts/MeiryoUIW53-Regular.eot');
+    src: url('../fonts/MeiryoUIW53-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MeiryoUIW53-Regular.woff2') format('woff2'),
+        url('../fonts/MeiryoUIW53-Regular.woff') format('woff'),
+        url('../fonts/MeiryoUIW53-Regular.ttf') format('truetype'),
+        url('../fonts/MeiryoUIW53-Regular.svg#MeiryoUIW53-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.two-block {
+    padding: 30px 20px; 
+    background: #000921;
+    overflow: hidden;
+    margin: -4px 0 0 ;
+}
+.text h1 {
+    font-size: 30px;
+    margin: 0 0 10px;
+    color: #fff;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+.video-block {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.form-area {
+    padding: 30px 50px;
+    background: #e5e5e530;
+}
+.upper-text h2 {
+    font-size: 70px;
+    line-height: 83px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.upper-text p {
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    font-family: 'Meiryo' !important;
+    text-transform: capitalize;
+}
+.form-block {
+    margin: 0 0 40px;
+}
+.form-block label {
+    font-size: 25px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+.form-block input,.form-block textarea {
+    background: #F8F8F8;
+    border: 1px solid #C5C5C5;
+    border-radius: 0;
+}
+.btn-donate {
+    background: #0C276B;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Meiryo' !important;
+}
+.btn-donate:hover {
+    color: #fff;
+}
+.sehedule-block {
+    padding: 20px 0;
+    background: #000921;
+}
+.sehedule-block h2 {
+    font-size: 60px;
+    line-height: 77px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+}
+.table-area .table tr th {
+    background: #ABABAB;
+    padding: 30px 15px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+.table-area .table tr td {
+    padding: 0;
+    border: 0;
+}
+.table-area .table tr td:first-child {
+    background: #ABABAB;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.table-area .table {
+    margin: 0;
+}
+.btn-area {
+    padding: 70px 0;
+    text-align: center;
+    background: #000921;
+}
+.btn-area .inq-btn {
+    background: #0C276B;
+    border-radius: 10px;
+    font-size: 35px;
+    line-height: 37px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Lora', serif !important;
+}
+#footer .footer-holder {
+    padding: 20px 10px 0;
+    background: #e5e5e530;
+}
+footer#footer .footer-holder ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+#footer .footer-holder ul li {
+    display: flex;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+#footer .footer-holder ul li a {
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Lora', serif !important;
+}
+#footer .footer-holder ul li:last-child {
+    text-align: right;
+}
+#footer .footer-holder ul li:last-child {
+    justify-content: flex-end;
+}
+#footer .footer-holder ul li:nth-child(2) {
+    justify-content: center;
+}
+.slick-prev, .slick-next {
+    z-index: 9;
+}
+.main-slider .slick-prev {
+    left: 20px;
+}
+.main-slider .slick-next {
+    right: 25px;
+    background: url(../images/right-icon.png) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.main-slider .slick-prev:before {
+    display: none;
+}
+.slick-prev:hover, .slick-prev:focus {
+    background: url(../images/left-icon.png) no-repeat !important;
+    background-size: contain !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.main-slider .slick-prev {
+    left: 20px;
+    background: url(../images/left-icon.png) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.main-slider .slick-next:before {
+    display: none;
+}
+.slick-next:hover, .slick-next:focus {
+    background: url(../images/right-icon.png) no-repeat !important;
+    background-size: contain !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.main-slider.mobile {
+    display: none;
+}
+.toper-area {
+    margin: 0 0 40px;
+}
+.toper-area h2 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.text-black {
+    height: 100%;
+    padding: 15px;
+    background: #000;
+}
+.text-black h2 {
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+    margin: 0 0 15px;
+}
+.text-black p {
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+    margin: 0;
+}
+.mid-text {
+    margin: 0 0 50px;
+    text-align: center;
+}
+.mid-text h2 {
+    font-family: Lora;
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+}
+.two-block.new {
+    padding: 50px 50px 150px;
+}
+.bord-area {
+    text-align: center;
+}
+.bord-area h2 {
+    font-size: 25px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Lora', serif !important;
+    margin: 0 0 5px;
+}
+.table-area .table tr td img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .table-area .table tr td img {
+        height: 110px;
+    }
+    .text-black p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .upper-text h2 {
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .upper-text p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .form-block label {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .sehedule-block h2 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    .table-area .table tr th {
+        padding: 20px 15px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .table-area .table tr td:first-child {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #footer .footer-holder ul li a {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .btn-area .inq-btn {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .text-black p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .table-area .table tr td img {
+        height: 80px;
+    }
+    .two-block.new {
+        padding: 30px 20px 100px;
+    }
+    .text-black h2 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .text-black p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .table-area .table tr th {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .table-area .table tr td:first-child {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .text h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .upper-text h2 {
+        font-size: 50px;
+        line-height: 52px;
+        margin: 0 0 20px;
+    }
+    .upper-text p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .form-block label {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .btn-donate {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 15px;
+    }
+    .table-area .table tr td img {
+        height: 78px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .form-area {
+        padding: 30px;
+    }
+    .upper-text h2 {
+        font-size: 40px;
+        line-height: 42px;
+        margin: 0 0 20px;
+    }
+    .table-area .table tr th {
+        padding: 15px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .table-area .table tr td:first-child {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .table-area .table tr td img {
+        height: 60px;
+    }
+    .text h1 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .btn-area .inq-btn {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #footer .footer-holder ul li a {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .btn-donate {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 15px;
+    }
+    .text-black p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .toper-area h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .text-black h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .mid-text h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .mid-text {
+        margin: 0 0 20px;
+    }
+    .bord-area h2 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .two-block.new {
+        padding: 30px 20px 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .two-block .text {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .video-block img {
+        width: 100px;
+    }
+    .upper-text {
+        margin: 0 0 50px;
+    }
+    .upper-text h2 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    .upper-text p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .form-block input, .form-block textarea {
+        height: 50px;
+    }
+    .main-slider {
+        display: block;
+    }
+    .text-black {
+        height: 100%;
+        padding: 50px 15px;
+        background: none;
+    }
+    .text-black p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .text-black p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .bord-area h2 {
+        display: none;
+    }
+    .bord-area img {
+        margin: 0 0 20px;
+    }
+    .two-block.new {
+        padding: 30px 20px 30px;
+    }
+    .sehedule-block {
+        padding: 30px 0;
+    }
+    .table-area .table tr td {
+        min-width: 158px;
+    }
+    .table-area .table tr td:first-child {
+        min-width: 100px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .table-area .table tr th {
+        min-width: 100px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .table-area .table tr td img {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 575px) {
+    #footer .footer-holder ul li a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .sehedule-block h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .form-area {
+        padding: 15px;
+    }
+    .upper-text h2 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .upper-text p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .upper-text {
+        margin: 0 0 30px;
+    }
+    .video-block img {
+        width: 70px;
+    }
+    .two-block {
+        padding: 15px;
+    }
+    .two-block .text {
+        margin: 0 0 15px;
+    }
+    .main-slider {
+        display: none !important;
+    }
+    .main-slider.mobile {
+        display: block !important;
+    }
+    .main-slider.mobile img {
+        width: 100%;
+    }
+    .two-block {
+        padding: 50px 15px;
+    }
+    .text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .table-area .table tr td img {
+        height: auto;
+    }
+    .table-area .table tr th {
+        font-size: 20px;
+        line-height: 25px;
+        min-width: 90px;
+    }
+    .table-area .table tr td:first-child {
+        min-width: 90px;
+    }
+    .table-area .table tr td:first-child {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .text-black p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .toper-area {
+        margin: 0 0 20px;
+    }
+    .mob-slider .mob-table ul li {
+        font-size: 16px;
+        line-height: 18px;
+        background: #ABABAB;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        font-family: 'Lora', serif !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 135px;
+    }
+    .slider-mob ul {
+        float: left;
+        width: 50%;
+    }
+    .mob-slider .mob-table ul li:first-child {
+        height: 65px;
+    }
+    .slider-mob ul li:first-child {
+        font-size: 16px;
+        line-height: 18px;
+        background: #ABABAB;
+        padding: 25px 10px;
+        color: #FFFFFF;
+        font-family: 'Lora', serif !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-mob ul li img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 6px);
+    }
+}
+@media only screen and (max-width: 540px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 9px);
+    }
+}
+@media only screen and (max-width: 520px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 13px);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 18px);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 22px);
+    }
+}
+@media only screen and (max-width: 460px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 27px);
+    }
+}
+@media only screen and (max-width: 440px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 31px);
+    }
+}
+@media only screen and (max-width: 420px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 36px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 40px);
+    }
+}
+@media only screen and (max-width: 380px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 45px);
+    }
+}
+@media only screen and (max-width: 375px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 46px);
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .slider-mob ul li:first-child {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 50px);
+    }
+}
+@media only screen and (max-width: 360px) {
+    .mob-slider .mob-table ul li {
+        height: calc(135px - 59px);
+    }
+}
