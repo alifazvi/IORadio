@@ -9,12 +9,11 @@
             @include('top_menu')
             <div class="main-slider">
                 
-                <div>  
 
-                <img src="{{URL::asset('/cstmView/images/slider-bar.png')}}" alt="banner">
+                <img style="width: 100%;" src="{{URL::asset('/cstmView/images/slider-bar.png')}}" alt="banner">
      
             
-            </div>
+            
                 {{-- <div><img src="{{URL::asset('/cstmView/images/slider-bar.png')}}" alt="banner"></div>
                 <div><img src="{{URL::asset('/cstmView/images/slider-bar.png')}}" alt="banner"></div> --}}
             </div>
