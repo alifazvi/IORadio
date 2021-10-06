@@ -17,14 +17,14 @@ class CreateProgramInfosTable extends Migration
             $table->id();
             $table->boolean('public')->default(0);
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->string('stripe_id');
-            $table->string('week');
-            $table->string('time');
-            $table->string('program_name');
-            $table->string('program_photo');
-            $table->string('program_detail');
+            $table->string('stripe_id')->nullable();
+            $table->string('week')->nullable();
+            $table->string('time')->nullable();
+            $table->string('program_name')->nullable();
+            $table->string('program_photo')->nullable();
+            $table->string('program_detail')->nullable();
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
