@@ -15,12 +15,15 @@ class CreateProgramDataTable extends Migration
     {
         Schema::create('program_data', function (Blueprint $table) {
             $table->id();
-            $table->string('program_file');
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->unsignedBigInteger('program_id');
-            $table->foreign('program_id')->references('id')->on('program_infos');
+            $table->unsignedBigInteger('program_id')->nullable();
+            $table->string('program_file')->nullable();
+            $table->string('delivery_date')->nullable();
+
             $table->timestamps();
+
+            $table->foreign('program_id')->references('id')->on('program_infos');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
