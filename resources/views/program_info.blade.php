@@ -10,16 +10,16 @@
         <main id="main" role="main">
             <div class="container">
                 <section class="two-block new">
-                    
+
                     <form>
-                 
+
                         <div class="form-group row">
                             <label for="inputProgramName" class="col-sm-2 col-form-label">Program Name</label>
                             <div class="col-sm-10">
                             <select name="" id="" class="form-control">
                                 <option value="abc">abc</option>
                             </select></div>
-                       
+
                           </div>
                           <div class="form-group row">
                             <label for="inputDayOfWeek" class="col-sm-2 col-form-label">Day Of Week</label>
@@ -55,10 +55,10 @@
                           <div class="form-group row">
                             <label for="publicStatus" class="col-sm-2 col-form-label">Public Status</label>
                             <div class="col-sm-10">
-                                <button type="input" class="btn btn-primary">Release</button>
+                                <button type="input" class="btn btn-light">Release</button>
                                 <button type="input" class="btn btn-primary">Private</button>
                           </div></div>
-                          
+
                           <div class="col-sm-12">
                             <label for="MessageList" class="col-sm-10"><h3>List of Past Messages</h3></label>
                             <div class="list-group-item list-group-item-action flex-column align-items-start">
@@ -67,7 +67,7 @@
                                   <small class="text-muted">date&time</small>
                                 </div>
                                 <p class="mb-1">Message</p>
-                                
+
                               </div>
                               <div class="list-group-item list-group-item-action flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
@@ -75,7 +75,7 @@
                                   <small class="text-muted">date&time</small>
                                 </div>
                                 <p class="mb-1">Message</p>
-                                
+
                               </div>
                               <div class="list-group-item list-group-item-action flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
@@ -83,7 +83,7 @@
                                   <small class="text-muted">date&time</small>
                                 </div>
                                 <p class="mb-1">Message</p>
-                                
+
                               </div>
                               <div class="list-group-item list-group-item-action flex-column align-items-start">
                                 <div class="d-flex w-100 justify-content-between">
@@ -91,14 +91,14 @@
                                   <small class="text-muted">date&time</small>
                                 </div>
                                 <p class="mb-1">Message</p>
-                                
+
                               </div>
                           </div>
-                        
 
- 
+
+
                     </form>
-                    
+
                 </section>
             </div>
         </main>

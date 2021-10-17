@@ -21,7 +21,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     margin: 0;
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-family: 'ABeeZee', sans-serif !important;
     font-family: 'Lora', serif;
 }
@@ -55,7 +55,7 @@ input[type="number"] {
     font-display: swap;
 }
 .two-block {
-    padding: 30px 20px; 
+    padding: 30px 20px;
     background: #000921;
     overflow: hidden;
     margin: -4px 0 0 ;

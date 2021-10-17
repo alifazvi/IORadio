@@ -25,7 +25,7 @@
                             </div>
                             <div class="col-sm-6 pl-0">
                                 <div class="img-holder">
-                                    <img src="/cstmView/images/sound-bar.png" alt="">
+                                    <img src="/cstmView/images/no_image.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                     <div class="row d-md-none">
                         <div class="col-md-6">
                             <div class="img-holder">
-                                <img src="/cstmView/images/sound-bar.png" alt="">
+                                <img src="/cstmView/images/no_image.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">

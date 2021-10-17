@@ -38,7 +38,7 @@
                             <h1>Listen to the program currently on air</h1>
                         </div>
                         <div class="img-holder">
-                            <img src="{{URL::asset('/cstmView/images/sound-bar.png')}}" alt="">
+                            <img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-sm-6 col-6">
@@ -125,123 +125,123 @@
                                     </tr>
                                     <tr>
                                         <td>18:00<br>-18:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>18:30<br>-19:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>19:00<br>-19:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>19:30<br>-20:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>20:00<br>-20:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>20:30<br>-21:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>21:00<br>-21:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>21:30<br>-22:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>22:00<br>-22:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>22:30<br>-23:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>23:00<br>-23:30</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                     <tr>
                                         <td>23:00<br>-24:00</td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
-                                        <td><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+                                        <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
                                     </tr>
                                 </table>
                             </div>
@@ -274,121 +274,121 @@
                             <div>
                                 <ul>
                                     <li>Sunday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                                 <ul>
                                     <li>Monday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
                                     <li>Tuesday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                                 <ul>
                                     <li>Wednesday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
                                     <li>Thursday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                                 <ul>
                                     <li>Friday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
                                     <li>Friday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                                 <ul>
                                     <li>Saturday</li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
-                                    <li><img src="{{URL::asset('/cstmView/images/small-sound.png')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
+                                    <li><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></li>
                                 </ul>
                             </div>
 
