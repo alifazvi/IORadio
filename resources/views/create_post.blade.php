@@ -40,13 +40,13 @@
                 <label class="text-left card_heading"><h2>FOR POSTING PROGRAM SOUND SOURCES</h2></label>
             </div>
             <div class="col-lg-6 mx-auto text-center form p-4">
-                <form method="post" action="{{route('addProgramData')}}" enctype="multipart/form-data">
+                <form method="post" action="{{route('addProgramData')}}" enctype="multipart/form-data" autocomplete="off">
                     @csrf
 
                     <div class="form-group row">
                         <label for="deliveryDate" class="col-sm-4 col-form-label text-left">Delivery Date</label>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control text-left" name="delivery_date" id="delivery_date">
+                            <input type="text" class="form-control text-left" name="delivery_date" id="delivery_date" autocomplete="off">
                             @if($errors->has('delivery_date'))
                                 <div class="error">{{ $errors->first('delivery_date') }}</div>
                             @endif

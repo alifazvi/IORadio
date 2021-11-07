@@ -13,4 +13,8 @@ class ProgramData extends Model
     public function user(){
         return $this->belongsTo('App\User');
     }
+
+    public function programInfo(){
+        return $this->belongsTo('App\ProgramInfo','program_id','id');
+    }
 }

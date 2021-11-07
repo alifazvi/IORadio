@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\TimeSlot;
 use Illuminate\Http\Request;
+use Ramsey\Uuid\Type\Time;
 use Stripe\Stripe;
 
 
@@ -25,7 +27,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $days= TimeSlot::select('day')->groupBy('day')->get();
+        $time_slots= TimeSlot::get();
+        $time_slots=$time_slots->groupBy('time_from');
+        return view('home',compact('days','time_slots'));
     }
 
     public function submitDonate(Request $request)

@@ -16,13 +16,14 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/index', function () {
 //     return view('index');
 // });
-Auth::routes();
+//Auth::routes();
 
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-Route::view('/', 'index')->name('index');
+//Route::view('/', 'index')->name('index');
 //Route::view('index', 'index')->name('index');
 
 Route::get('/posting_program')->name('posting_program');
@@ -47,3 +48,6 @@ Route::post('add_program_data',[\App\Http\Controllers\ProgramController::class,'
 Route::post('delete_program_data',[\App\Http\Controllers\ProgramController::class,'deleteProgramData'])->name('deleteProgram');
 
 Route::post('add_program_info',[\App\Http\Controllers\ProgramController::class,'addProgramInfo'])->name('addProgramInfo');
+
+Route::get('admin/post',[\App\Http\Controllers\AdminController::class,'index'])->name('admin.post');
+
