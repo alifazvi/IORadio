@@ -4,6 +4,41 @@
     @include('header')
 </head>
 <body>
+<style>
+
+    .audio_container{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width:100%;
+    }
+    audio {
+        /*border-radius: 90px;*/
+        width: 100%;
+        height: 45px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    audio::-webkit-media-controls-mute-button {
+        display: none !important;
+    }
+
+    audio::-webkit-media-controls-volume-slider {
+        display: none !important;
+    }
+
+    audio::-webkit-media-controls-volume-control-container.closed {
+        display: none !important;
+    }
+
+    audio::-webkit-media-controls-volume-control-container {
+        display: none !important;
+    }
+</style>
 <div id="wrapper">
     <div class="container">
         @include('top_menu')
@@ -38,13 +73,33 @@
                             <h1>Listen to the program currently on air</h1>
                         </div>
                         <div class="img-holder">
-                            <img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt="">
+                            @if($recent_program && isset($recent_program->program_photo))
+                                <img src="{{URL::asset('uploads/'.$recent_program->program_photo)}}" alt="">
+                            @else
+                                <img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt="">
+                            @endif
                         </div>
                     </div>
                     <div class="col-sm-6 col-6">
-                        <div class="video-block">
-                            <a href="#"><img src="{{URL::asset('/cstmView/images/video-icon.png')}}" alt=""></a>
-                        </div>
+                        @if($recent_program && $recent_program->latestProgramData)
+
+                            @php
+                                $program_data = $recent_program->latestProgramData;
+                            @endphp
+                            @if($program_data && isset($program_data->program_file))
+                                <div class="audio_container">
+                                    <audio controls>
+
+                                        <source src="{{URL('uploads/'.$program_data->program_file)}}" type="audio/mpeg">
+
+                                    </audio>
+                                </div>
+                            @endif
+                        @else
+                            <div class="video-block">
+                                <a href="#"><img src="{{URL::asset('/cstmView/images/video-icon.png')}}" alt=""></a>
+                            </div>
+                        @endif
                     </div>
                 </div>
             </section>
@@ -63,7 +118,7 @@
 
                                 <div class="form-group">
                                     <label for="inputAddress">Program name</label>
-                                    <input type="text" name="program_name" class="form-control" id="inputAddress">
+                                    <input type="text" name="program_name"  value="{{($recent_program)?$recent_program->program_name:""}}" class="form-control" id="inputAddress" >
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
@@ -84,9 +139,9 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <button type="submit" class="btn btn-donate">to donate</button>
+                            <input type="hidden" name="program_id" id="program_id" value="{{$recent_program->id}}">
+                            <button type="submit" class="btn btn-donate">To Donate</button>
                         </div>
-
                     </div>
                 </form>
             </section>
@@ -128,12 +183,27 @@
                                             @endphp
                                             @foreach($time_slot As $slot)
                                                 @if($i == 0)
-                                                <td>{{$slot->time_from}}<br>-{{$slot->time_to}}</td>
+                                                    <td>{{$slot->time_from}}<br>-{{$slot->time_to}}</td>
                                                     @php
                                                         $i++;
                                                     @endphp
                                                 @endif
-                                                    <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}" alt=""></td>
+
+
+                                                @if( $slot->programInfo && !is_null($slot->programInfo) && $slot->programInfo->count() > 0)
+                                                    <td>
+                                                        <a href="{{ URL('/archive/'.$slot->programInfo->first()->id) }}">
+                                                            <img
+                                                                src="{{URL::asset('uploads/'.$slot->programInfo->first()->program_photo)}}"
+                                                                alt=""></a>
+                                                    </td>
+                                                @else
+                                                    <td><img src="{{URL::asset('/cstmView/images/no_image.jpg')}}"
+                                                             alt=""></td>
+                                                @endif
+
+
+
                                             @endforeach
                                         </tr>
                                     @endforeach

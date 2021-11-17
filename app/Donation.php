@@ -6,9 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Donation extends Model
 {
-    //
 
-    public function programinfo(){
+    protected $table = 'donations';
+
+    public function programInfo()
+    {
         return $this->belongsTo('App\ProgramInfo');
     }
 }

@@ -14,8 +14,16 @@ class ProgramInfo extends Model
         return $this->belongsTo('App\User');
     }
 
-    public function donation()
+    public function donations()
     {
-        return $this->hasOne('App\Donation');
+        return $this->hasMany('App\Donation','program_id');
+    }
+
+    public function programData(){
+        return $this->hasMany('App\ProgramData','program_id');
+    }
+
+    public function latestProgramData(){
+        return $this->hasOne('App\ProgramData','program_id')->orderBy('created_at', 'desc');
     }
 }

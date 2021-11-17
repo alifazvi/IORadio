@@ -14,17 +14,18 @@ class CreateProgramInfosTable extends Migration
     public function up()
     {
         Schema::create('program_infos', function (Blueprint $table) {
-            $table->id();
-            $table->boolean('public')->default(0);
-            $table->unsignedBigInteger('user_id');
+            $table->bigIncrements('id');
+            $table->bigInteger('user_id')->unsigned();
             $table->string('stripe_id')->nullable();
-            $table->string('week')->nullable();
-            $table->string('time')->nullable();
+
+            $table->integer('time_slot_id')->unsigned()->nullable();
             $table->string('program_name')->nullable();
             $table->string('program_photo')->nullable();
             $table->string('program_detail')->nullable();
+            $table->tinyInteger('is_publish')->default(0);
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('time_slot_id')->references('id')->on('time_slots');
         });
     }
 

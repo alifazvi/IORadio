@@ -37,6 +37,13 @@ class ProgramController extends Controller
     }
 
 
+    public function archiveProgram(Request $request, $id=0)
+    {
+        $program_info = ProgramInfo::with('programData')->find($id);
+
+        return view('archives', compact('program_info'));
+    }
+
     public function addProgramData(Request $request)
     {
         $request->validate([
@@ -46,6 +53,7 @@ class ProgramController extends Controller
 
         $user = Auth::user();
         $program_data = ProgramData::where('user_id', $user->id)->orderBy('created_at', 'ASC')->get();
+        $program_info = ProgramInfo::where('user_id', $user->id)->first();
         if ($program_data->count() >= 3) {
             $program_data->first()->delete();
         }
@@ -54,8 +62,8 @@ class ProgramController extends Controller
         $program= ProgramData::create([
             'user_id' => $user->id,
             'program_file' => $file_name,
+            'program_id' => ($program_info && isset($program_info->id))?$program_info->id:null,
             'delivery_date' => $request->delivery_date,
-            'program_id' => request('program_id', NULL),
         ]);
         Session::flash('message', 'Program data has been created successfully.');
         return redirect('create_post');
@@ -82,6 +90,7 @@ class ProgramController extends Controller
                 'program_detail' => $request->program_desc,
                 'program_photo' => $file_name,
             ]);
+            $program_data = ProgramData::where(['user_id'=>$user->id])->update(['program_id'=>$program_info->id]);
         }else{
             $program_info->program_name = $request->program_name;
             $program_info->program_detail = $request->program_desc;
